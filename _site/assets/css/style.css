@@ -18,46 +18,65 @@ body {
 	width: 100%;
 	margin: 0 0 100px;
 	padding: 0;
+	
 }
 
-/*
-#content{
-	padding-bottom: 100px;
+html, body {
+	overflow-x: visible;
 }
-*/
 
-a, a:visited, a:active, a:focus {
+.content{
+	margin-top: 7.5em;
+	margin-bottom: 7em;
+}
+
+header a, header a:visited, header a:active,  header a:focus, body a {
     text-decoration: none;
 	color: #C12B00;
 }
 
-a:hover{
+header a:hover, body a:hover{
 	text-decoration: none;
 	color: #FF3900;
-
 }
 
-header {
+header{
+	position: absolute;
+	top: 0;
+	left: 0;
 	background: #375575;
 	color: #00151C;
 	height: 7.5em;
-	font-size: 100%;
+	box-shadow: 10em 0em 0em 0em #375575;
+	width:100%
 }
 
 footer{
 	position: absolute;
-	bottom: 0;
+	bottom: 0px;
 	left: 0;
-	height: 7em;
+	float:left;
+	height: 6em;
 	background: #375575;
-	/*color: #00151C;*/
-	box-shadow: 0px 100px 0px 100px #375575;
+	/*color: #751A00;*/
+	box-shadow: 10em 10em 0 10em #375575;
 	letter-spacing: .01em;
 }
 
+footer a, footer a:visited, footer a:active,  footer a:focus {
+    text-decoration: none;
+	color: #BFCCDB;
+}
+
+footer a:hover{
+	color: #94AADB;
+}
+
+/*
 footer a{
-	color: #751A00;
-} 
+	text-color: #751A00;
+}
+*/
 
 body > header, body > section, body > footer {
 	float: left;
@@ -96,19 +115,39 @@ header > .grid li{
 	margin-top: -.75em;
 }
 
+a.name, a.name:link, a.name:active, a.name:focus, a.name:visited{
+	color: #BFCCDB;
+}
+
+a.name:hover{
+	color: #94AADB;
+}
+
 @media screen and (max-width: 568px) {
 	.show-on-mobiles{
 		display: block;
 	}
+	/*
+	footer a{
+		color: #751A00;
+	}
+	*/
 	header {
+		position:absolute;
 		height: 3em;
+		overflow: visible;
+		display: inline-block;
 	}
 	
 	header > .mobile-nav li{
 		margin-top: .1em;
 		margin-left: 2%;
 		margin-right: 2%;
-		font-size: 150%;
+		font-size: 100%;
+	}
+	
+	footer{
+		height: 5em;
 	}
 	
 	.title-sub-text{
@@ -127,4 +166,6 @@ header > .grid li{
 colors
 000E1C
 374575
+BFCCDB
+94AADB
 */
