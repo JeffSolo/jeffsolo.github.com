@@ -7,8 +7,9 @@ url: "http://0.0.0.0:4000"
 paginate: 10
 
 markdown: redcarpet
+markdown_ext: md
 redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "tables", "with_toc_data"]
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "tables"]
 kramdown:
   auto_ids:       true
   footnote_nr:    1

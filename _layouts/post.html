@@ -1,6 +1,11 @@
 {% include header.html %}
 <div class="row">
-{{ content }}
-{% include blog.html %}
+	<br><br>
+	<span class="grid">
+		<h2>{{page.title}}</h2>
+		<h4> {{ page.date | date_to_long_string }}</h4>
+		<br>
+		{{ content }}
+	</span>
 </div>
 {% include footer.html %}
