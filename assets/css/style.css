@@ -72,12 +72,6 @@ footer a:hover{
 	color: #94AADB;
 }
 
-/*
-footer a{
-	text-color: #751A00;
-}
-*/
-
 body > header, body > section, body > footer {
 	float: left;
 	width: 100%;
@@ -121,6 +115,10 @@ a.name, a.name:link, a.name:active, a.name:focus, a.name:visited{
 
 a.name:hover{
 	color: #94AADB;
+}
+
+.blogpost {
+	color:#374575;
 }
 
 @media screen and (max-width: 568px) {
