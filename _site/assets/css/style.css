@@ -30,14 +30,24 @@ html, body {
 	margin-bottom: 7em;
 }
 
-header a, header a:visited, header a:active,  header a:focus, body a {
-    text-decoration: none;
+body a:hover{
+	text-decoration: none;
+	color: #FF3900;
+}
+
+body a{
+	text-decoration: none;
 	color: #C12B00;
 }
 
-header a:hover, body a:hover{
+header a, header a:visited, header a:active,  header a:focus{
+    text-decoration: none;
+	color: #BFCCDB;
+}
+
+header a:hover {
 	text-decoration: none;
-	color: #FF3900;
+	color: #94AADB;
 }
 
 header{
