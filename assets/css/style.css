@@ -119,6 +119,10 @@ header > .grid li{
 	margin-top: -.75em;
 }
 
+.name {
+	font-family: 'Lora', serif;
+}
+
 a.name, a.name:link, a.name:active, a.name:focus, a.name:visited{
 	color: #BFCCDB;
 }
