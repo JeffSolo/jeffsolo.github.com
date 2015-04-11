@@ -30,14 +30,14 @@ html, body {
 	margin-bottom: 7em;
 }
 
+body a, body a:focus, body a:active, body a:visited{
+	text-decoration: none;
+	color: #C12B00;
+}
+
 body a:hover{
 	text-decoration: none;
 	color: #FF3900;
-}
-
-body a, body a:focus{
-	text-decoration: none;
-	color: #C12B00;
 }
 
 header a, header a:visited, header a:active,  header a:focus{
