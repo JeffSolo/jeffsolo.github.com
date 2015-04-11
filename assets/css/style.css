@@ -35,7 +35,7 @@ body a:hover{
 	color: #FF3900;
 }
 
-body a{
+body a, body a:focus{
 	text-decoration: none;
 	color: #C12B00;
 }
