@@ -97,8 +97,8 @@ body > header, body > section, body > footer {
 
 header > .grid li{
 	margin-top: 1em;
-	margin-left: 1em;
-	margin-right: 2em;
+	margin-left: 7%;
+	margin-right: 7%;
 	font-size: 1.7em;
 }
 
@@ -135,6 +135,16 @@ a.name:hover{
 	color:#374575;
 }
 
+img{
+	margin-left: .5em;
+	max-width: 16.5em;
+	max-height: 17em;
+	height: 100%;
+	width: 95%;
+	border-radius: 5%;
+	float: right;
+}
+
 @media screen and (max-width: 568px) {
 	.show-on-mobiles{
 		display: block;
@@ -166,9 +176,12 @@ a.name:hover{
 		color: #375575;
 		margin-left: 2em;
 	}
-}
 	
-
+	img{		
+		float: none;
+		text-align: center;
+	}
+}
 
 /*
 .grid:after{
