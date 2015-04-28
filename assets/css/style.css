@@ -14,7 +14,6 @@ body {
     background-color: #00151C;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    color: #92B2C1;
 	color: #BA2E27;
 	width: 100%;
 	margin: 0 0 100px;
@@ -33,14 +32,11 @@ html, body {
 
 body a, body a:focus, body a:active, body a:visited{
 	text-decoration: none;
-	color: #BA2E27;
-	color: #92B2C1;
 	color: #BFCCDB;
 }
 
 body a:hover{
 	text-decoration: none;
-	color: #E83930;
 	color: #94AADB;
 }
 
@@ -134,6 +130,11 @@ a.name, a.name:link, a.name:active, a.name:focus, a.name:visited{
 a.name:hover{
 	color: #94AADB;
 }
+
+.titlehead{
+	color: #EA241A;
+}
+
 
 .mainpic {
 	margin-top: 1em;
