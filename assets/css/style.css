@@ -133,8 +133,18 @@ a.name:hover{
 
 .titlehead{
 	color: #EA241A;
+	text-decoration: ;
 }
 
+.biopic {
+	margin-top: 1em;
+	max-width: 17em;
+	max-height: 17em;
+	height: 100%;
+	width: 100%;
+	border-radius: 5%;
+	float: center;
+}
 
 .mainpic {
 	margin-top: 1em;
