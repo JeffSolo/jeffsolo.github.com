@@ -1,1 +1,1 @@
-# jeffsolo.github.com
+# jeffreysolo.com
