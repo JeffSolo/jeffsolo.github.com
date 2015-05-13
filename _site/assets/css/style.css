@@ -156,6 +156,15 @@ a.name:hover{
 	float: right;
 }
 
+.tabspace{
+	margin-left: 3em;
+}
+
+.redder{
+	color: #BA2E27;
+	color: #E82E27;
+}
+
 @media screen and (max-width: 568px) {
 	.show-on-mobiles{
 		display: block;
