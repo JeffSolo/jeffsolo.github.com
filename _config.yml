@@ -20,3 +20,4 @@ kramdown:
   input: GFM
 permalink: pretty
 highlighter: pygments
+gems: [jekyll-last-modified-at]
