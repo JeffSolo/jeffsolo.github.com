@@ -19,5 +19,5 @@ kramdown:
   enable_coderay: false
   input: GFM
 permalink: pretty
-highlighter: pygments
+highlighter: rouge
 gems: [jekyll-last-modified-at]
