@@ -20,4 +20,4 @@ kramdown:
   input: GFM
 permalink: pretty
 highlighter: rouge
-gems: [jekyll-last-modified-at]
+gems: [jekyll-last-modified-at, jekyll-paginate]
