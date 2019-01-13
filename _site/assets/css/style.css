@@ -11,10 +11,10 @@ html{
 
 
 body {
-    background-color: #00151C;
+    background-color: #4281A4;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-	color: #BA2E27;
+	color: #FE938C;
 	width: 100%;
 	margin: 0 0 100px;
 	padding: 0;
@@ -32,7 +32,7 @@ html, body {
 
 body a, body a:focus, body a:active, body a:visited{
 	text-decoration: none;
-	color: #BFCCDB;
+	color: #E6B89C;
 }
 
 body a:hover{
@@ -132,7 +132,7 @@ a.name:hover{
 }
 
 .titlehead{
-	color: #EA241A;
+	color: #EAD2AC;
 	text-decoration: ;
 }
 
@@ -159,11 +159,6 @@ a.name:hover{
 
 .tabspace{
 	margin-left: 3em;
-}
-
-.redder{
-	color: #BA2E27;
-	color: #E82E27;
 }
 
 @media screen and (max-width: 568px) {
