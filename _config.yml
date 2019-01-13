@@ -4,8 +4,6 @@ description: "Heyo"
 
 url: "http://0.0.0.0:4000"
 
-paginate: 10
-
 markdown: kramdown
 markdown_ext: md
 redcarpet:
@@ -20,4 +18,3 @@ kramdown:
   input: GFM
 permalink: pretty
 highlighter: rouge
-gems: [jekyll-last-modified-at, jekyll-paginate]

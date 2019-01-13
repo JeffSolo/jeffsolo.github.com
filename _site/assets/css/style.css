@@ -153,18 +153,22 @@ a.name:hover{
 }
 
 .biopic {
-  max-width: 95%;
-  height:auto;
-  margin-right: 5%;
+  margin-top: 1em;
+  margin-left: 2em;
+  max-width: 13em;
+  max-height: 18em;
+  height: 100%;
+  width: 100%;
   border-radius: 5%;
   float: center;
 }
 
 .mainpic {
-  max-width: 75%;
-  height: auto;
-  margin-top: 10%;
-  margin-right: 5%;
+  margin-top: 1em;
+  max-width: 16.5em;
+  max-height: 17em;
+  height: 100%;
+  width: 95%;
   border-radius: 5%;
   float: right;
 }
