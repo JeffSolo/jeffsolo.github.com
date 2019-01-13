@@ -1,6 +1,6 @@
-.idea
+.idea/
 .DS_Store
-/docs/LatexResume/
-_site
+Latex/
+_site/
 Gemfile
 Gemfile.lock
