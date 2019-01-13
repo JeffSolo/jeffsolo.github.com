@@ -1,6 +1,7 @@
+_drafts/
+_site/
 .idea/
 .DS_Store
 Latex/
-_site/
 Gemfile
 Gemfile.lock
