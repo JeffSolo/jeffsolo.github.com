@@ -1,0 +1,33 @@
+@media screen and (max-width: 568px) {
+  .show-on-mobiles{
+    display: block;
+  }
+
+  header {
+    position:absolute;
+    height: 3em;
+    overflow: visible;
+    display: inline-block;
+  }
+
+  header > .mobile-nav li{
+    margin-top: .1em;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 100%;
+  }
+
+  footer{
+    height: 5em;
+  }
+
+  .title-sub-text{
+    color: #375575;
+    margin-left: 2em;
+  }
+
+  .mainpic{
+    float: none;
+    text-align: center;
+  }
+}
