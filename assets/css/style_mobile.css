@@ -1,35 +1,35 @@
 @media screen and (max-width: 568px) {
+  :root {
+    --header-height: 4em;
+  }
   .show-on-mobiles{
     display: block;
   }
 
-  header {
-    position: absolute;
-    height: 3em;
-    overflow: visible;
-    display: inline-block;
+  header{
+    height: var(--header-height);
   }
 
-  header > .mobile-nav li{
-    margin-top: .1em;
-    margin-left: 2%;
-    margin-right: 2%;
-    font-size: 100%;
+  header > .grid li{
+    position: relative;
+    overflow: visible;
+    font-size: 1em;
+    margin: 1% 2% 1% 2%;
+  }
+
+  .title{
+    font-size: 1.25em;
+    margin: 1% 1% 1% 1%;
   }
 
   footer{
     height: 5em;
-  }
-
-  .title-sub-text{
-    color: #375575;
-    margin-left: 2em;
+    font-size: .75em;
   }
 
   .main{
-    margin-left: 5%;
-    margin-right: 5%;
     font-size: 85%;
+    padding-top: var(--header-height);
   }
 
   .mainpic{
@@ -38,10 +38,25 @@
     max-width: 50%;
   }
 
+  .hide-mobile-breaks br{
+    content:' ';
+  }
+
   .biopic {
     max-width: 75%;
     height: auto;
     margin-right: 5%;
     border-radius: 5%;
   }
+
+  .mobile-stack li{
+    display: block;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+  }
+
+  .mobile-stack br{
+    display: none;
+  }
+
 }

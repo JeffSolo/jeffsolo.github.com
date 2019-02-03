@@ -12,6 +12,8 @@
   --footer-link-hover-color: var(--header-link-hover-color);
   --name-link-color: var(--header-link-color);
   --name-link-hover-color: var(--header-link-hover-color);
+
+  --header-height: 7.5em;
 }
 
 .site{
@@ -40,7 +42,9 @@ html, body {
 }
 
 .main{
-  margin: 7.5em 2em 7.5em 2em;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: var(--header-height);
   font-size: 1.25em;
 }
 
@@ -70,7 +74,7 @@ header {
   left: 0;
   background: var(--header-bg-color);
   color: #00151C;
-  height: 7.5em;
+  height: var(--header-height);
   box-shadow: 10em 0em 0em 0em var(--footer-bg-color);
   width:100%;
   padding: 0 5% 0 5%;
@@ -128,13 +132,7 @@ header > .grid li{
   margin-right: 2.5em;
 }
 
-.title-sub-text{
-  text-align: right;
-  margin-right: 5em;
-  margin-top: -.75em;
-}
-
-.name {
+.name{
   font-family: 'Lora', serif;
 }
 
