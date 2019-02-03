@@ -4,7 +4,7 @@
   }
 
   header {
-    position:absolute;
+    position: absolute;
     height: 3em;
     overflow: visible;
     display: inline-block;
@@ -26,8 +26,21 @@
     margin-left: 2em;
   }
 
+  .main{
+    padding: 5% 5% 5% 5%;
+    font-size: 85%;
+  }
+
   .mainpic{
     float: none;
     text-align: center;
+    max-width: 50%;
+  }
+
+  .biopic {
+    max-width: 75%;
+    height: auto;
+    margin-right: 5%;
+    border-radius: 5%;
   }
 }

@@ -29,21 +29,21 @@ html{
 body {
   background-color: var(--main-bg-color);
   font-family: 'Roboto', sans-serif;
-  font-weight: 700;
+  font-weight: normal;
   color: var(--main-text-color);
   width: 100%;
   margin: 0 0 100px;
   padding: 0;
-
 }
 
 html, body {
   overflow-x: visible;
 }
 
-.content{
+.main{
   margin-top: 7.5em;
   margin-bottom: 7em;
+  font-size: 1.25em;
 }
 
 body a, body a:focus, body a:active, body a:visited{
@@ -87,6 +87,7 @@ footer{
   /*color: #751A00;*/
   box-shadow: 10em 10em 0 10em var(--footer-bg-color);
   letter-spacing: .01em;
+  font-size: 1em;
 }
 
 footer a, footer a:visited, footer a:active,  footer a:focus {
@@ -154,7 +155,7 @@ a.name:hover{
 
 .biopic {
   max-width: 95%;
-  height:auto;
+  height: auto;
   margin-right: 5%;
   border-radius: 5%;
 }
@@ -162,7 +163,6 @@ a.name:hover{
 .mainpic {
   max-width: 75%;
   height: auto;
-  margin-top: 10%;
   margin-right: 5%;
   border-radius: 5%;
   float: right;
