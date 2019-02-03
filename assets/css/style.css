@@ -40,8 +40,7 @@ html, body {
 }
 
 .main{
-  margin-top: 7.5em;
-  margin-bottom: 7em;
+  margin: 7.5em 2em 7.5em 2em;
   font-size: 1.25em;
 }
 
@@ -65,7 +64,7 @@ header a:hover {
   color: var(--header-link-hover-color);
 }
 
-header{
+header {
   position: absolute;
   top: 0;
   left: 0;
@@ -73,17 +72,17 @@ header{
   color: #00151C;
   height: 7.5em;
   box-shadow: 10em 0em 0em 0em var(--footer-bg-color);
-  width:100%
+  width:100%;
+  padding: 0 5% 0 5%;
 }
 
-footer{
+footer {
   position: absolute;
   bottom: 0px;
   left: 0;
   float:left;
   height: 6em;
   background: var(--footer-bg-color);
-  /*color: #751A00;*/
   box-shadow: 10em 10em 0 10em var(--footer-bg-color);
   letter-spacing: .01em;
   font-size: 1em;
