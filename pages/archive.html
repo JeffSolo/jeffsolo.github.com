@@ -8,9 +8,14 @@ permalink: /archive/
     <br>
     <p>
     Contained within is a selection of works written, created, and/or designed by yours truly.
-    It's not all good, but it is all mine.
+    This curated selection consists mainly of school projects I've done over the years.
+    It's not all good, but it is all mine. Enjoy.
     </p>
-    <p>
-    ...mostly it's just a bunch of school projects I've done over the years. Enjoy.
-    </p>
+    <h3>Creative Writing</h3>
+    {% for file in site.static_files %}
+      {% if file.path contains 'archive/' %}
+        <p> <a href="{{ file.path }}" target="_blank"> {{ file.basename | slice: 11, 100 | replace: '-', ' ' }} </a>
+            -- {{file.basename | date: '%B %d, %Y' }} </p>
+      {% endif %}
+    {% endfor %}
 </div>
