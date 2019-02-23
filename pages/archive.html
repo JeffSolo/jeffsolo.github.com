@@ -11,9 +11,17 @@ permalink: /archive/
   This curated selection consists mainly of school projects I've done over the years.
   It's not all good, but it is all mine. Enjoy.
   </p>
+  <br>
   <h3>Creative Writing</h3>
   {% for file in site.archive %}
     {% if file.tags contains "Creative Writing" %}
+      <p><a href="{{ file.url }}">{{ file.title }}</a> {{ file.append }} -- {{ file.date | date: '%-d %B, %Y' }}</p>
+    {% endif %}
+  {% endfor %}
+  <br>
+  <h3>Miscellaneous</h3>
+  {% for file in site.archive %}
+    {% if file.tags contains "misc" %}
       <p><a href="{{ file.url }}">{{ file.title }}</a> {{ file.append }} -- {{ file.date | date: '%-d %B, %Y' }}</p>
     {% endif %}
   {% endfor %}
