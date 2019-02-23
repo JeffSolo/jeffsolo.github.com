@@ -18,3 +18,7 @@ kramdown:
   input: GFM
 permalink: pretty
 highlighter: rouge
+
+collections:
+  archive:
+    output: true

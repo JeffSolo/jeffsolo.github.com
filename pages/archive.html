@@ -12,10 +12,10 @@ permalink: /archive/
     It's not all good, but it is all mine. Enjoy.
     </p>
     <h3>Creative Writing</h3>
-    {% for file in site.static_files %}
-      {% if file.path contains 'archive/' %}
-        <p> <a href="{{ file.path }}" target="_blank"> {{ file.basename | slice: 11, 100 | replace: '-', ' ' }} </a>
-            -- {{file.basename | date: '%B %d, %Y' }} </p>
-      {% endif %}
+    {% for file in site.archive %}
+        {% if file.tags contains "Creative Writing" %}
+            <p><a href="{{ file.url }}">{{ file.title }}</a> {{ file.append }} -- {{ file.date | date: '%-d %B, %Y' }}</p>
+        {% endif %}
     {% endfor %}
+
 </div>
