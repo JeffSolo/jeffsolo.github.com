@@ -10,6 +10,10 @@
     height: var(--header-height);
   }
 
+  header > .grid ul{
+    display: inline-block;
+  }
+
   header > .grid li{
     position: relative;
     overflow: visible;
