@@ -2,7 +2,7 @@
 layout: post
 title: On Writing
 permalink: /archive/:title
-file: static/Writing.pdf
+file: static/writing.pdf
 date: 2010-09-01
 tags: [Creative Writing]
 ---
