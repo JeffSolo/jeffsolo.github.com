@@ -5,37 +5,42 @@
   font-size: 12px;
 }
 
-.tableizer-table td {
-  padding: 4px;
-  margin: 3px;
-  border: 1px solid var(--main-bg-color);
-  color: var(--main-bg-color);
-}
-
 .tableizer-table th {
+  padding: .5em .5em .5em .5em;
   background-color: var(--header-bg-color);
   border: 1px solid var(--main-bg-color);
   color: var(--main-link-color);
   font-weight: bold;
 }
 
+.tableizer-table td {
+  padding: .5em .25em .5em .25em;
+  border: 1px solid var(--main-bg-color);
+  color: var(--main-bg-color);
+}
+
 tr{
   background-color: var(--main-text-color);
 }
 
-
 .fingerpointer{
   cursor: pointer;
 }
-</style><table class="tableizer-table sortable">
-<tr class="tableizer-firstrow fingerpointer"><th>&nbsp;&nbsp;#</th><th>&nbsp;&nbsp;Book</th><th>&nbsp;&nbsp;Author</th><th>&nbsp;&nbsp;Date Read</th><th>Rating*<br>(1-5)</th><th>&nbsp;&nbsp;Comments</th></tr>
-<tr><td>Carpe Jugulum</td><td>Terry Pratchett</td><td sorttable_customkey="-65">August 2019</td><td></td><td>Discworld #23</td></tr>
+</style>
+
+
+<table class="tableizer-table sortable">
+<tr class="tableizer-firstrow fingerpointer">
+<th>#</th><th>Book</th><th>Author</th><th>Date Read</th><th>Rating<br></th><th>Comments</th></tr>
+<!--<tr><td>Carpe Jugulum</td><td>Terry Pratchett</td><td sorttable_customkey="-67">August 2019</td><td></td><td>Discworld #23</td></tr>-->
+<tr><td>Mythology</td><td>Edith Hamilton</td><td sorttable_customkey="-65">August 2019</td><td></td><td>Currently Reading</td></tr>
+<tr><td>The Ocean at the End of the Lane</td><td>Neil Gaiman</td><td sorttable_customkey="-65">August 2019</td><td></td><td>Currently Reading</td></tr>
 <tr><td>The Last Continent</td><td>Terry Pratchett</td><td sorttable_customkey="-64">July - August 2019</td><td>4</td><td>Discworld #22</td></tr>
-<tr><td>The Name of the Wind</td><td>Patrick Rothfuss</td><td sorttable_customkey="-63">July 2019</td><td>3.5</td><td></td></tr>
+<tr><td>The Name of the Wind</td><td>Patrick Rothfuss</td><td sorttable_customkey="-63">July 2019</td><td>3.5</td><td>The Kingkiller Chronicle #1</td></tr>
 <tr><td>The World's Religions</td><td>Huston Smith</td><td sorttable_customkey="-62">May - July 2019</td><td>5</td><td></td></tr>
 <tr><td>Jingo</td><td>Terry Pratchett</td><td sorttable_customkey="-61">April - May 2019</td><td>4.5</td><td>Discworld #21</td></tr>
 <tr><td>American Gods</td><td>Neil Gaiman</td><td sorttable_customkey="-60">March - April 2019</td><td>2</td><td></td></tr>
-<tr><td>Züruck in Zürich</td><td>André Klein</td><td sorttable_customkey="-59">April 2019</td><td>-</td><td>Dino lernt Deutsch #8</td></tr>
+<tr><td>Zurück in Zürich</td><td>André Klein</td><td sorttable_customkey="-59">April 2019</td><td>-</td><td>Dino lernt Deutsch #8</td></tr>
 <tr><td>Walzer in Wien</td><td>André Klein</td><td sorttable_customkey="-58">March 2019</td><td>-</td><td>Dino lernt Deutsch #7</td></tr>
 <tr><td>Siddartha</td><td>Hermann Hesse</td><td sorttable_customkey="-57">March 2019</td><td>4.5</td><td></td></tr>
 <tr><td>Edgedancer</td><td>Brandon Sanderson</td><td sorttable_customkey="-56">March 2019</td><td>3</td><td>The Stormlight Archive #2.5</td></tr>
@@ -102,9 +107,7 @@ tr{
 <tr><td>Cat's Cradle</td><td>Kurt Vonnegut</td><td sorttable_customkey="3">Dec 2014</td><td>5</td><td>&nbsp;</td></tr>
 <tr><td>Surprised by Joy</td><td>C.S. Lewis</td><td sorttable_customkey="5">Fall 2014</td><td>4.5</td><td>partial autobiography</td></tr>
 <tr><td>Hitchhiker's Guide to the Galaxy</td><td>Douglas Adams</td><td sorttable_customkey="6">Summer 2014</td><td>5</td><td>listened to radio show - didn't  actually read the books</td></tr>
-
 <tr><td>Oryx and Crake</td><td>Margaret Atwood</td><td sorttable_customkey="7">Spring 2014</td><td>4</td><td>&nbsp;</td></tr>
-
 <tr><td>Unstuck</td><td>Cole, Arnie</td><td sorttable_customkey="8">Feb - April 2014</td><td>~2</td><td></td></tr>
 <tr><td>The Hound of the Baskervilles</td><td>Arthur Conan Doyle</td><td sorttable_customkey="9">Feb 2014</td><td>5</td><td>&nbsp;</td></tr>
 <tr><td>The Adventures of Sherlock Holmes</td><td>Arthur Conan Doyle</td><td sorttable_customkey="10">Jan - Feb 2014</td><td>5</td><td>&nbsp;</td></tr>
@@ -115,28 +118,21 @@ tr{
 <tr><td>Man's Search for Meaning</td><td>Viktor Frankl</td><td sorttable_customkey="15">Fall 2013</td><td>4</td><td>for my psych 101 class</td></tr>
 <tr><td>Connecting</td><td>Larry Crab</td><td sorttable_customkey="16">Sep - Oct 2013</td><td>~4</td><td>&nbsp;</td></tr>
 <tr><td>Jesus is ____</td><td>Judah Smith</td><td sorttable_customkey="17">Aug - Sep 2013</td><td>~4</td><td>&nbsp;</td></tr>
-
 <tr><td>The Ragamuffin Gospel</td><td>Brennan Manning</td><td sorttable_customkey="18">Summer 2013</td><td>~4</td><td>&nbsp;</td></tr>
-
 <tr><td>Forgotten God</td><td>Francis Chan</td><td sorttable_customkey="19">Summer 2013</td><td>~3</td><td>&nbsp;</td></tr>
 <tr><td>Perelandra</td><td>C.S. Lewis</td><td sorttable_customkey="20">Spring - Summer 2013</td><td>4</td><td>&nbsp;</td></tr>
-
 <tr><td>The Wheel of Time (entire series)</td><td>Robert Jordan</td><td sorttable_customkey="21">2007 - 2013</td><td>5</td><td>started as freshman in high schol, finished after sophomore in college</td></tr>
 <tr><td>Out of the silent planet</td><td>C.S. Lewis</td><td sorttable_customkey="22">2013</td><td>4</td><td>&nbsp;</td></tr>
-<tr><td>Saturday Nothing</td><td>Josh Martin</td><td sorttable_customkey="23">Spring 2013</td><td>~3</td><td>my worship pastor at the time wrote it</td></tr>
-
+<tr><td>Saturday Nothing</td><td>Josh Martin</td><td sorttable_customkey="23">Spring 2013</td><td>~3</td><td></td></tr>
 <tr><td>Radical</td><td>David Platt</td><td sorttable_customkey="24">Spring 2013</td><td>~2</td><td>&nbsp;</td></tr>
 <tr><td>Mere Christianity</td><td>C.S. Lewis</td><td sorttable_customkey="25">Winter 2012</td><td>~3.5</td><td>&nbsp;</td></tr>
-
 <tr><td>The Adventures of Tom Sawyer</td><td>Mark Twain</td><td sorttable_customkey="26">Summer 2012</td><td>4</td><td>&nbsp;</td></tr>
 <tr><td>The Hunger Games</td><td>Suzanne Collins</td><td sorttable_customkey="27">Spring 2012</td><td>3.5</td><td>&nbsp;</td></tr>
 <tr><td>The Problem of Pain</td><td>C.S. Lewis</td><td sorttable_customkey="28">April 2012</td><td>~3.5</td><td>A friend passed away while I was reading this book</td></tr>
 <tr><td>A Grief Observed</td><td>C.S. Lewis</td><td sorttable_customkey="29">Winter - Spring 2012</td><td>5</td><td>recounting his wife's death</td></tr>
 <tr><td>The Great Divorce</td><td>C.S. Lewis</td><td sorttable_customkey="30">Winter 2012</td><td>~3.75</td><td>&nbsp;</td></tr>
-
 <tr><td>The Screwtape Letters</td><td>C.S. Lewis</td><td sorttable_customkey="31">Winter 2011-2012</td><td>~4</td><td>&nbsp;</td></tr>
 <tr><td>Catch 22</td><td>Joseph Heller</td><td sorttable_customkey="32">Winter 2011-2012</td><td>5</td><td>&nbsp;</td></tr>
-
 <tr><td>The Cellist of Sarajevo</td><td>Steven Galloway</td><td sorttable_customkey="33">Winter 2011</td><td>3.5</td><td>read for freshman core class</td></tr>
 <tr><td>The Road</td><td>Cormac McCarthy</td><td sorttable_customkey="34">Fall 2011</td><td>3</td><td>read for freshman core class</td></tr>
 <tr><td>Copenhagen</td><td>Michael Frayn</td><td sorttable_customkey="35">Fall 2011</td><td>3.5</td><td>read for freshman core class</td></tr>
@@ -147,13 +143,10 @@ tr{
 <tr><td>Animal Farm</td><td>George Orwell</td><td sorttable_customkey="40">Spring 2011</td><td>4</td><td>read for senior english class</td></tr>
 <tr><td>Of Mice and Men</td><td>John Steinbeck</td><td sorttable_customkey="41">Spring 2010</td><td>4.5</td><td>read for junior english class</td></tr>
 <tr><td>Huckleberry Finn</td><td>Mark Twain</td><td sorttable_customkey="42">Spring 2010</td><td>5</td><td>read for junior english class</td></tr>
-<tr><td> (unfinished) The Hiding Place</td><td>Corrie ten Boom</td><td sorttable_customkey="43">Spring 2010</td><td>-</td><td>read for junior U.S. history class</td></tr>
-
 <tr><td>Shane</td><td>Jack Schaefer</td><td sorttable_customkey="43.5">Spring 2009</td><td>3.5!</td><td>read for sophomore english class</td></tr>
-<tr><td>Julius Caesar</td><td>William Shakespeare</td>          <td sorttable_customkey="44">Spring 2009</td><td>4.5</td><td>read for sophomore english class</td></tr>
-<tr><td>Cry, the Beloved Country</td><td>Alan Paton</td>        <td sorttable_customkey="45">Spring 2009</td><td>3.75</td><td>read for sophomore english class</td></tr>
-<tr><td>The Red Badge of Courage</td><td>Stephen Crane</td> <td sorttable_customkey="46">Winter 2009</td><td>3   </td><td>read for sophomore english class</td></tr>
-
+<tr><td>Julius Caesar</td><td>William Shakespeare</td><td sorttable_customkey="44">Spring 2009</td><td>4.5</td><td>read for sophomore english class</td></tr>
+<tr><td>Cry, the Beloved Country</td><td>Alan Paton</td><td sorttable_customkey="45">Spring 2009</td><td>3.75</td><td>read for sophomore english class</td></tr>
+<tr><td>The Red Badge of Courage</td><td>Stephen Crane</td> <td sorttable_customkey="46">Winter 2009</td><td>3</td><td>read for sophomore english class</td></tr>
 <tr><td>The Ballad of the Sad Café</td><td>Carson McCullers</td><td sorttable_customkey="47">Winter 2008</td><td>2.5 </td><td>read for sophomore english class</td></tr>
 <tr><td>Their Eyes Were Watching God</td><td>Zora Neale Hurston</td><td sorttable_customkey="48">Winter 2008-2009</td><td>3</td><td>read for sophomore english class</td></tr>
 <tr><td>Romeo and Juliet</td><td>William Shakespeare</td><td sorttable_customkey="49">Spring 2008</td><td>4.5</td><td>read for freshman english class</td></tr>
