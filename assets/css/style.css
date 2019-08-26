@@ -171,3 +171,31 @@ a.name:hover{
 .tabspace {
   margin-left: 3em;
 }
+
+.tableizer-table {
+  border: 1px solid var(--main-bg-color);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.tableizer-table th {
+  padding: .5em .5em .5em .5em;
+  background-color: var(--header-bg-color);
+  border: 1px solid var(--main-bg-color);
+  color: var(--main-link-color);
+  font-weight: bold;
+}
+
+.tableizer-table td {
+  padding: .5em .25em .5em .25em;
+  border: 1px solid var(--main-bg-color);
+  color: var(--main-bg-color);
+}
+
+tr{
+  background-color: var(--main-text-color);
+}
+
+.fingerpointer{
+  cursor: pointer;
+}
