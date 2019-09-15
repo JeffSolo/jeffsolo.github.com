@@ -43,7 +43,7 @@ html, body {
 .main{
   margin-left: 5%;
   margin-right: 5%;
-  margin-top: var(--header-height);
+  padding-top: var(--header-height);
   font-size: 1.25em;
 }
 
