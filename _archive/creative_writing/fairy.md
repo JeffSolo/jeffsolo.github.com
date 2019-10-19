@@ -6,4 +6,4 @@ file: static/fairy.pdf
 date: 2010-11-17
 tags: [Creative Writing]
 ---
-{% include archive.html %}
+{% include archive_body.html %}

@@ -6,4 +6,4 @@ file: static/pirate.pdf
 date: 2010-09-11
 tags: [Creative Writing]
 ---
-{% include archive.html %}
+{% include archive_body.html %}

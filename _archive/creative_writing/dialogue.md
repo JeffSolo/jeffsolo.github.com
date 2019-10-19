@@ -6,4 +6,4 @@ file: static/dialogue.pdf
 date: 2010-12-16
 tags: [Creative Writing]
 ---
-{% include archive.html %}
+{% include archive_body.html %}

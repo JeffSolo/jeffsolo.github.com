@@ -6,4 +6,4 @@ file: static/compy.pdf
 date: 2010-11-07
 tags: [Creative Writing]
 ---
-{% include archive.html %}
+{% include archive_body.html %}

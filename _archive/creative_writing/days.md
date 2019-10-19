@@ -7,4 +7,4 @@ date: 2010-12-06
 append: (Poem)
 tags: [Creative Writing]
 ---
-{% include archive.html %}
+{% include archive_body.html %}

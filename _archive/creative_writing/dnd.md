@@ -6,4 +6,4 @@ file: static/dnd.pdf
 date: 2011-01-10
 tags: [Creative Writing]
 ---
-{% include archive.html %}
+{% include archive_body.html %}

@@ -7,4 +7,4 @@ date: 2013-09-09
 tags: [misc]
 ---
 Developmental Psychology Extra Credit Assignment
-{% include archive.html %}
+{% include archive_body.html %}

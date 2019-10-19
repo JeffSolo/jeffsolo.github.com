@@ -9,4 +9,4 @@ tags: [misc]
 A very meta paper for freshman English 102.
 
 Possibly my most beautifully written piece.
-{% include archive.html %}
+{% include archive_body.html %}

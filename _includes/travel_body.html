@@ -1,0 +1,11 @@
+<div class="grid">
+  <div>
+    <ul>
+      {% for post in site.posts limit: 10 %}
+        {% if post.subblog contains 'travel' %}
+            <p><a href="{{ post.url }}">{{ post.title }}</a> -- {{post.date | date: '%B %d, %Y' }} </p>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</div>

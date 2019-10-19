@@ -10,4 +10,4 @@ tags: [misc]
 Powerpoint for Business Computer Applications, freshman year of high school.
 
 It makes me chuckle.
-{% include archive.html %}
+{% include archive_body.html %}
