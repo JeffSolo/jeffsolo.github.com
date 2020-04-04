@@ -25,4 +25,5 @@ collections:
   archive:
     output: true
   reviews:
+    output: true
     permalink: /reviews/books/
