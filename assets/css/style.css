@@ -12,6 +12,8 @@
   --footer-link-hover-color: var(--header-link-hover-color);
   --name-link-color: var(--header-link-color);
   --name-link-hover-color: var(--header-link-hover-color);
+  --table-link-color: var(--header-link-color);
+  --table-link-hover-color: var(--header-link-hover-color);
   --header-height: 7.5em;
 }
 
@@ -138,6 +140,16 @@ body > header, body > section, body > footer {
 
 .name{
   font-family: 'Lora', serif;
+}
+
+tr a, tr a:visited, tr a:active,  tr a:focus {
+  text-decoration: none;
+  color: var(--table-link-color);
+}
+
+tr a:hover {
+  text-decoration: none;
+  color: var(--table-link-hover-color);
 }
 
 a.name, a.name:link, a.name:active, a.name:focus, a.name:visited{

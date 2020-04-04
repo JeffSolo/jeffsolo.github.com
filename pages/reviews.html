@@ -1,0 +1,11 @@
+---
+layout: default
+title: Reviews
+shorttitle: Reviews
+permalink: /books/reviews/
+---
+
+{% for review in site.reviews %}
+    <h2><a name="{{ review.shorttitle }}">{{ review.title }}</a></h2>
+    <p>{{ review.content | markdownify }}</p>
+{% endfor %}
