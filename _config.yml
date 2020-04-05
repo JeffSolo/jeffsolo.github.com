@@ -21,9 +21,6 @@ highlighter: rouge
 collections_dir: collections
 
 collections:
-
   archive:
     output: true
   reviews:
-    output: true
-    permalink: /reviews/books/

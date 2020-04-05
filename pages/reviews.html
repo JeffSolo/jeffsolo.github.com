@@ -2,15 +2,20 @@
 layout: default
 title: Reviews
 shorttitle: Reviews
-permalink: /books/reviews/
+permalink: /reviews/books/
 ---
 <script src="{{ site.baseurl }}/assets/js/common.js" type="text/javascript"></script>
 
 {% for review in site.reviews %}
     {% assign id = review.title | replace: ' ', '_' %}
     {% assign divid = id | append: '_div' %}
+
     <h2><a id="{{ id }}" onclick="toggle_content('{{ divid }}')"> -> {{ review.title }}</a></h2>
+    <h4> {{ review.date | date: "%B %-d, %Y" }} &nbsp;&nbsp;&nbsp;&nbsp; Rating: {{ review.rating }}</h4>
+
     <div id="{{ divid }}" style="display: none;">
+        <h3>{{ review.header }}</h3>
         <p>{{ review.content | markdownify }}</p>
     </div>
+
 {% endfor %}
