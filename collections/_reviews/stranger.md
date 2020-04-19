@@ -4,7 +4,7 @@ title: Stranger in a Strange Land
 author: Robert A. Heinlein
 header: Grokking the fullness of grokking
 date: 2020-04-04
-rating: 4.5
+rating: 4
 ---
 
 *Stranger in a Strange Land* started out strong, and I was entranced from the beginning.
