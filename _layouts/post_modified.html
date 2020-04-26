@@ -1,16 +1,5 @@
-{% include header.html %}
-<div class="row">
-  <br><br>
-  <div class="blogpost">
-    <span class="grid">
-      <span class="titlehead">
-      <h2>{{page.title}}</h2>
-      <h4> {{ page.date | date: '%-d %B, %Y' }}</h4>
-      <h6 id='modifiedOn'>Last updated: </h6>
-      <br>
-      </span>
-      {{ content }}
-    </span>
-  </div>
-</div>
-{% include footer.html %}
+---
+layout: post
+---
+<h6 id='modifiedOn'>Last updated: </h6>
+{{ content }}
